@@ -17,8 +17,8 @@ attr_accessor :name
 
 
   def self.all
-   @@all.collect do |name|
-     puts name
+   @@all.collect do |dog|
+     dog.name
    end
  end
 end
